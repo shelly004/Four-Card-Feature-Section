@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+   font-family: 'Poppins',sans-serif;
+   font-size: 15px;
+   background-color: hsl(0, 0%, 98%);
+   color: hsl(229, 6%, 66%);
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+header{
+    text-align: center;
+}
+
+header h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 34px;
+}
+
+header h3{
+    color:  hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 34px;
+}
+header p{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2dvh;
+}
+
+.main-section{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.box1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+  
+.box2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+  
+.box3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+  
+.box4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box-text {
+    text-align: left;
+    padding: 20px;
+}
+
+.box-text h5 {
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 5px;
+}
+.box-text p{
+    width: 70%;
+    font-size: small;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1,
+.box4 {
+  align-self: center;
+}
+
+.card img{
+    margin-left: 80%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+@media (max-width: 768px) {
+    .main-section {
+      grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    footer {
+      font-size: 12px; 
+      padding: 15px;
+    }
+  
+    footer .attribution {
+      text-align: center;
+      word-wrap: break-word; 
+    }
+  
+    footer a {
+      font-size: 13px;
+    }
+  }
