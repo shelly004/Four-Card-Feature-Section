@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/shelly004/Four-Card-Feature-Section)
-- Live Site URL: [Add live site URL here](https://shelly004.github.io/Four-Card-Feature-Section/)
+- Solution URL: [solution URL here](https://github.com/shelly004/Four-Card-Feature-Section)
+- Live Site URL: [live site URL here](https://shelly004.github.io/Four-Card-Feature-Section/)
 
 ## My process
 
